@@ -1,0 +1,74 @@
+
+/* Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+
+body{
+    background-color: #FAFAF9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.Card {
+    background-color: #FFFFFF;
+    width: 368px;
+    border-radius: 16px 16px 16px 16px ;
+    box-shadow: 4px 4px 6px 4px #E5EAF030;
+    grid-column:2;
+    margin-top: 164px;
+}
+
+.Card_container ,.Card_footer p{
+    margin: 16px 16px 0 16px;
+}
+
+.Card_imagen img {
+    margin-top: 16px;
+    width: 336px;
+    height: 152px;
+
+}
+
+.Card_tag {
+    margin: 16px 0 16px 0;
+    display:flex ;
+}
+
+.Card_tag p {
+    padding: 6px 16px 6px 16px;
+    border-radius: 16px;
+    background-color: #E6D6FC;
+    /*font-family: 'Sora', serif;
+    font-size: 10px;
+    font-weight: bold;*/
+    font: bold 10px 'Sora', Serif;
+    margin: 0;
+    color:#883AE1 ;
+}
+
+.Card_Body h2{
+    font: bold 18px 'Sora', Serif;
+    margin-bottom: 6px;
+    color:#20293A;
+}
+.Card_Body p{
+    font: normal 14px 'Sora', Serif;
+    padding-bottom: 20px;
+    margin:0;
+    color: #6C727F;
+}
+
+.Card_footer p{
+    font: normal 12px 'Sora', Serif;
+    padding-bottom: 20px;
+    color: #6C727F;
+}
+
+.Card_footer{
+    border-top: solid 1px #E5EAF0;
+
+}
